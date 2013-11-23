@@ -1,0 +1,11 @@
+In this problem I tried to model the solution using Linear Regression:
+
+One neccessary point to be tested (which is missing in your extra credits - testing algorithm with
+new data). For the purpose the data can be divided into 70%training and 30%testing 70-30 rule.
+ 
+Results:
+1. The results are similar on existing and new data. It means no overfitting is present. The results are same
+   and so none of the features are useless. On the contrary I observed an underfitting.   
+2. The data can't be modeled well with Linear Regression and higher order terms (with regularization)
+or neural networks can be tried.
+
